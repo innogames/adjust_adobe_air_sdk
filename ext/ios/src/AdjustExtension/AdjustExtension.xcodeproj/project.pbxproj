@@ -7,33 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20751CEB1E0426270076059F /* AdjustSdkDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20751CEA1E0426270076059F /* AdjustSdkDelegate.m */; };
 		96332CC01A8B982000D38FAF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96332CBF1A8B982000D38FAF /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		96332CC21A8B982600D38FAF /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96332CC11A8B982600D38FAF /* iAd.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		96471C1119939331000CD897 /* Adjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 96471BF119939331000CD897 /* Adjust.m */; };
-		96471C1219939331000CD897 /* AIActivityHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 96471BF319939331000CD897 /* AIActivityHandler.m */; };
-		96471C1319939331000CD897 /* AIActivityKind.m in Sources */ = {isa = PBXBuildFile; fileRef = 96471BF519939331000CD897 /* AIActivityKind.m */; };
-		96471C1419939331000CD897 /* AIActivityPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 96471BF719939331000CD897 /* AIActivityPackage.m */; };
-		96471C1519939331000CD897 /* AIActivityState.m in Sources */ = {isa = PBXBuildFile; fileRef = 96471BF919939331000CD897 /* AIActivityState.m */; };
-		96471C1619939331000CD897 /* NSData+AIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96471BFC19939331000CD897 /* NSData+AIAdditions.m */; };
-		96471C1719939331000CD897 /* NSString+AIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96471BFE19939331000CD897 /* NSString+AIAdditions.m */; };
-		96471C1819939331000CD897 /* UIDevice+AIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96471C0019939331000CD897 /* UIDevice+AIAdditions.m */; };
-		96471C1919939331000CD897 /* AIAdjustFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 96471C0219939331000CD897 /* AIAdjustFactory.m */; };
-		96471C1A19939331000CD897 /* AILogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 96471C0419939331000CD897 /* AILogger.m */; };
-		96471C1B19939331000CD897 /* AIPackageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 96471C0619939331000CD897 /* AIPackageBuilder.m */; };
-		96471C1C19939331000CD897 /* AIPackageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 96471C0819939331000CD897 /* AIPackageHandler.m */; };
-		96471C1D19939331000CD897 /* AIRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 96471C0A19939331000CD897 /* AIRequestHandler.m */; };
-		96471C1E19939331000CD897 /* AIResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 96471C0C19939331000CD897 /* AIResponseData.m */; };
-		96471C1F19939331000CD897 /* AITimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96471C0E19939331000CD897 /* AITimer.m */; };
-		96471C2019939331000CD897 /* AIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 96471C1019939331000CD897 /* AIUtil.m */; };
 		96471C231993B3F1000CD897 /* AdjustFREUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 96471C221993B3F1000CD897 /* AdjustFREUtils.m */; };
 		9696C5F91993CF0D003B644E /* AdjustFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9696C5F81993CF0D003B644E /* AdjustFunction.m */; };
 		96E1BBD71993872F004E270B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E1BBD61993872F004E270B /* Foundation.framework */; };
 		96E1BBDE1993872F004E270B /* AdjustExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E1BBDD1993872F004E270B /* AdjustExtension.m */; };
-		96E1BBE51993872F004E270B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E1BBE41993872F004E270B /* XCTest.framework */; };
 		96E1BBE61993872F004E270B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E1BBD61993872F004E270B /* Foundation.framework */; };
-		96E1BBE819938730004E270B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E1BBE719938730004E270B /* UIKit.framework */; };
 		96E1BBF119938730004E270B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96E1BBEF19938730004E270B /* InfoPlist.strings */; };
 		96E1BBF319938730004E270B /* AdjustExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E1BBF219938730004E270B /* AdjustExtensionTests.m */; };
+		9DCED7FA1C8D9F45007C1574 /* AdjustSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DCED7F91C8D9F45007C1574 /* AdjustSdk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,40 +43,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		20751CE91E0426270076059F /* AdjustSdkDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjustSdkDelegate.h; sourceTree = "<group>"; };
+		20751CEA1E0426270076059F /* AdjustSdkDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdjustSdkDelegate.m; sourceTree = "<group>"; };
 		96332CBF1A8B982000D38FAF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		96332CC11A8B982600D38FAF /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		96471BF019939331000CD897 /* Adjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adjust.h; sourceTree = "<group>"; };
-		96471BF119939331000CD897 /* Adjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adjust.m; sourceTree = "<group>"; };
-		96471BF219939331000CD897 /* AIActivityHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIActivityHandler.h; sourceTree = "<group>"; };
-		96471BF319939331000CD897 /* AIActivityHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIActivityHandler.m; sourceTree = "<group>"; };
-		96471BF419939331000CD897 /* AIActivityKind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIActivityKind.h; sourceTree = "<group>"; };
-		96471BF519939331000CD897 /* AIActivityKind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIActivityKind.m; sourceTree = "<group>"; };
-		96471BF619939331000CD897 /* AIActivityPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIActivityPackage.h; sourceTree = "<group>"; };
-		96471BF719939331000CD897 /* AIActivityPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIActivityPackage.m; sourceTree = "<group>"; };
-		96471BF819939331000CD897 /* AIActivityState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIActivityState.h; sourceTree = "<group>"; };
-		96471BF919939331000CD897 /* AIActivityState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIActivityState.m; sourceTree = "<group>"; };
-		96471BFB19939331000CD897 /* NSData+AIAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AIAdditions.h"; sourceTree = "<group>"; };
-		96471BFC19939331000CD897 /* NSData+AIAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AIAdditions.m"; sourceTree = "<group>"; };
-		96471BFD19939331000CD897 /* NSString+AIAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AIAdditions.h"; sourceTree = "<group>"; };
-		96471BFE19939331000CD897 /* NSString+AIAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AIAdditions.m"; sourceTree = "<group>"; };
-		96471BFF19939331000CD897 /* UIDevice+AIAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+AIAdditions.h"; sourceTree = "<group>"; };
-		96471C0019939331000CD897 /* UIDevice+AIAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+AIAdditions.m"; sourceTree = "<group>"; };
-		96471C0119939331000CD897 /* AIAdjustFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIAdjustFactory.h; sourceTree = "<group>"; };
-		96471C0219939331000CD897 /* AIAdjustFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIAdjustFactory.m; sourceTree = "<group>"; };
-		96471C0319939331000CD897 /* AILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AILogger.h; sourceTree = "<group>"; };
-		96471C0419939331000CD897 /* AILogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AILogger.m; sourceTree = "<group>"; };
-		96471C0519939331000CD897 /* AIPackageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIPackageBuilder.h; sourceTree = "<group>"; };
-		96471C0619939331000CD897 /* AIPackageBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIPackageBuilder.m; sourceTree = "<group>"; };
-		96471C0719939331000CD897 /* AIPackageHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIPackageHandler.h; sourceTree = "<group>"; };
-		96471C0819939331000CD897 /* AIPackageHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIPackageHandler.m; sourceTree = "<group>"; };
-		96471C0919939331000CD897 /* AIRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRequestHandler.h; sourceTree = "<group>"; };
-		96471C0A19939331000CD897 /* AIRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRequestHandler.m; sourceTree = "<group>"; };
-		96471C0B19939331000CD897 /* AIResponseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIResponseData.h; sourceTree = "<group>"; };
-		96471C0C19939331000CD897 /* AIResponseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIResponseData.m; sourceTree = "<group>"; };
-		96471C0D19939331000CD897 /* AITimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AITimer.h; sourceTree = "<group>"; };
-		96471C0E19939331000CD897 /* AITimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AITimer.m; sourceTree = "<group>"; };
-		96471C0F19939331000CD897 /* AIUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIUtil.h; sourceTree = "<group>"; };
-		96471C1019939331000CD897 /* AIUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIUtil.m; sourceTree = "<group>"; };
 		96471C211993B3F1000CD897 /* AdjustFREUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjustFREUtils.h; sourceTree = "<group>"; };
 		96471C221993B3F1000CD897 /* AdjustFREUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdjustFREUtils.m; sourceTree = "<group>"; };
 		9696C5F71993CF0D003B644E /* AdjustFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjustFunction.h; sourceTree = "<group>"; };
@@ -102,12 +56,11 @@
 		96E1BBDA1993872F004E270B /* AdjustExtension-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdjustExtension-Prefix.pch"; sourceTree = "<group>"; };
 		96E1BBDD1993872F004E270B /* AdjustExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdjustExtension.m; sourceTree = "<group>"; };
 		96E1BBE31993872F004E270B /* AdjustExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdjustExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		96E1BBE41993872F004E270B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		96E1BBE719938730004E270B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		96E1BBEE19938730004E270B /* AdjustExtensionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdjustExtensionTests-Info.plist"; sourceTree = "<group>"; };
 		96E1BBF019938730004E270B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96E1BBF219938730004E270B /* AdjustExtensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdjustExtensionTests.m; sourceTree = "<group>"; };
 		96E1BBFC1993897B004E270B /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		9DCED7F91C8D9F45007C1574 /* AdjustSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdjustSdk.framework; path = include/Adjust/AdjustSdk.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DCED7FA1C8D9F45007C1574 /* AdjustSdk.framework in Frameworks */,
 				96332CC21A8B982600D38FAF /* iAd.framework in Frameworks */,
 				96332CC01A8B982000D38FAF /* AdSupport.framework in Frameworks */,
 				96E1BBD71993872F004E270B /* Foundation.framework in Frameworks */,
@@ -125,8 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96E1BBE51993872F004E270B /* XCTest.framework in Frameworks */,
-				96E1BBE819938730004E270B /* UIKit.framework in Frameworks */,
 				96E1BBE61993872F004E270B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,53 +86,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		96471BEF19939331000CD897 /* Adjust */ = {
-			isa = PBXGroup;
-			children = (
-				96471BF019939331000CD897 /* Adjust.h */,
-				96471BF119939331000CD897 /* Adjust.m */,
-				96471BF219939331000CD897 /* AIActivityHandler.h */,
-				96471BF319939331000CD897 /* AIActivityHandler.m */,
-				96471BF419939331000CD897 /* AIActivityKind.h */,
-				96471BF519939331000CD897 /* AIActivityKind.m */,
-				96471BF619939331000CD897 /* AIActivityPackage.h */,
-				96471BF719939331000CD897 /* AIActivityPackage.m */,
-				96471BF819939331000CD897 /* AIActivityState.h */,
-				96471BF919939331000CD897 /* AIActivityState.m */,
-				96471BFA19939331000CD897 /* AIAdditions */,
-				96471C0119939331000CD897 /* AIAdjustFactory.h */,
-				96471C0219939331000CD897 /* AIAdjustFactory.m */,
-				96471C0319939331000CD897 /* AILogger.h */,
-				96471C0419939331000CD897 /* AILogger.m */,
-				96471C0519939331000CD897 /* AIPackageBuilder.h */,
-				96471C0619939331000CD897 /* AIPackageBuilder.m */,
-				96471C0719939331000CD897 /* AIPackageHandler.h */,
-				96471C0819939331000CD897 /* AIPackageHandler.m */,
-				96471C0919939331000CD897 /* AIRequestHandler.h */,
-				96471C0A19939331000CD897 /* AIRequestHandler.m */,
-				96471C0B19939331000CD897 /* AIResponseData.h */,
-				96471C0C19939331000CD897 /* AIResponseData.m */,
-				96471C0D19939331000CD897 /* AITimer.h */,
-				96471C0E19939331000CD897 /* AITimer.m */,
-				96471C0F19939331000CD897 /* AIUtil.h */,
-				96471C1019939331000CD897 /* AIUtil.m */,
-			);
-			path = Adjust;
-			sourceTree = "<group>";
-		};
-		96471BFA19939331000CD897 /* AIAdditions */ = {
-			isa = PBXGroup;
-			children = (
-				96471BFB19939331000CD897 /* NSData+AIAdditions.h */,
-				96471BFC19939331000CD897 /* NSData+AIAdditions.m */,
-				96471BFD19939331000CD897 /* NSString+AIAdditions.h */,
-				96471BFE19939331000CD897 /* NSString+AIAdditions.m */,
-				96471BFF19939331000CD897 /* UIDevice+AIAdditions.h */,
-				96471C0019939331000CD897 /* UIDevice+AIAdditions.m */,
-			);
-			path = AIAdditions;
-			sourceTree = "<group>";
-		};
 		96E1BBCA1993872F004E270B = {
 			isa = PBXGroup;
 			children = (
@@ -203,11 +108,10 @@
 		96E1BBD51993872F004E270B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9DCED7F91C8D9F45007C1574 /* AdjustSdk.framework */,
 				96332CC11A8B982600D38FAF /* iAd.framework */,
 				96332CBF1A8B982000D38FAF /* AdSupport.framework */,
 				96E1BBD61993872F004E270B /* Foundation.framework */,
-				96E1BBE41993872F004E270B /* XCTest.framework */,
-				96E1BBE719938730004E270B /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -221,6 +125,8 @@
 				96471C221993B3F1000CD897 /* AdjustFREUtils.m */,
 				9696C5F71993CF0D003B644E /* AdjustFunction.h */,
 				9696C5F81993CF0D003B644E /* AdjustFunction.m */,
+				20751CE91E0426270076059F /* AdjustSdkDelegate.h */,
+				20751CEA1E0426270076059F /* AdjustSdkDelegate.m */,
 			);
 			path = AdjustExtension;
 			sourceTree = "<group>";
@@ -228,7 +134,6 @@
 		96E1BBD91993872F004E270B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				96471BEF19939331000CD897 /* Adjust */,
 				96E1BBFC1993897B004E270B /* FlashRuntimeExtensions.h */,
 				96E1BBDA1993872F004E270B /* AdjustExtension-Prefix.pch */,
 			);
@@ -297,7 +202,7 @@
 		96E1BBCB1993872F004E270B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = adjust;
 			};
 			buildConfigurationList = 96E1BBCE1993872F004E270B /* Build configuration list for PBXProject "AdjustExtension" */;
@@ -334,25 +239,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96471C1519939331000CD897 /* AIActivityState.m in Sources */,
-				96471C1619939331000CD897 /* NSData+AIAdditions.m in Sources */,
-				96471C1319939331000CD897 /* AIActivityKind.m in Sources */,
-				96471C1119939331000CD897 /* Adjust.m in Sources */,
-				96471C1A19939331000CD897 /* AILogger.m in Sources */,
-				96471C1419939331000CD897 /* AIActivityPackage.m in Sources */,
 				96471C231993B3F1000CD897 /* AdjustFREUtils.m in Sources */,
-				96471C1719939331000CD897 /* NSString+AIAdditions.m in Sources */,
 				9696C5F91993CF0D003B644E /* AdjustFunction.m in Sources */,
-				96471C1819939331000CD897 /* UIDevice+AIAdditions.m in Sources */,
-				96471C1E19939331000CD897 /* AIResponseData.m in Sources */,
-				96471C1C19939331000CD897 /* AIPackageHandler.m in Sources */,
-				96471C1919939331000CD897 /* AIAdjustFactory.m in Sources */,
-				96471C2019939331000CD897 /* AIUtil.m in Sources */,
-				96471C1D19939331000CD897 /* AIRequestHandler.m in Sources */,
-				96471C1219939331000CD897 /* AIActivityHandler.m in Sources */,
-				96471C1B19939331000CD897 /* AIPackageBuilder.m in Sources */,
+				20751CEB1E0426270076059F /* AdjustSdkDelegate.m in Sources */,
 				96E1BBDE1993872F004E270B /* AdjustExtension.m in Sources */,
-				96471C1F19939331000CD897 /* AITimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,12 +289,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -417,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -436,19 +332,24 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -458,8 +359,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/AdjustExtension.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/uerceg/GitHub/adobe_air_sdk/ext/iOS/sdk,
+					"$(PROJECT_DIR)/include/Adjust",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdjustExtension/AdjustExtension-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdjustExtension",
+					"$(PROJECT_DIR)/include/Adjust",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -470,8 +381,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/AdjustExtension.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/uerceg/GitHub/adobe_air_sdk/ext/iOS/sdk,
+					"$(PROJECT_DIR)/include/Adjust",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdjustExtension/AdjustExtension-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdjustExtension",
+					"$(PROJECT_DIR)/include/Adjust",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -493,6 +414,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "AdjustExtensionTests/AdjustExtensionTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "adjust.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -509,6 +431,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdjustExtension/AdjustExtension-Prefix.pch";
 				INFOPLIST_FILE = "AdjustExtensionTests/AdjustExtensionTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "adjust.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
